@@ -1,23 +1,24 @@
 {
-    "name": "reveilleurdebot",
-    "version": "0.1",
-    "description": "reveil des bot de merde",
-    "main": "index.js",
-    "scripts": {
-      "start": "node index.js"
-    },
-    "dependencies": {
-      "express": "^4.17.1",
-      "discord.js": "12.5.3",
-      "easy-json-database": "^1.3.0",
-      "node-fetch": "^2.6.1",
-      "opusscript": "^0.0.8",
-      "discord-reaction-role": "^2.0.0",
-      "ytdl-core": "4.8.2",
-      "dotenv": "10.0.0"
-    },
-    "engines": {
-      "node": "12.x"
-    },
-    "license": "MIT"
-  }
+  "name": "reveilleurdebot",
+  "version": "0.1.0",
+  "description": "reveil des bot de merde",
+  "main": "index.js",
+  "main": "index(1).js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "discord.js": "12.5.3",
+    "easy-json-database": "^1.3.0",
+    "node-fetch": "^2.6.1",
+    "opusscript": "^0.0.8",
+    "discord-reaction-role": "^2.0.0",
+    "ytdl-core": "4.8.2",
+    "dotenv": "10.0.0"
+  },
+  "engines": {
+    "node": "12.x"
+  },
+  "license": "MIT"
+}
