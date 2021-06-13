@@ -3,7 +3,6 @@
   "version": "0.1.0",
   "description": "reveil des bot de merde",
   "main": "index.js",
-  "main": "index(1).js",
   "scripts": {
     "start": "node index.js"
   },
