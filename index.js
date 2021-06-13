@@ -52,4 +52,12 @@ s4d.client.on('message', async (s4dmessage) => {
 
 });
 
+s4d.client.on('message', async (s4dmessage) => {
+    if ((s4dmessage.content) == 'e!stopreveil' && (s4dmessage.channel) == s4d.client.channels.cache.get('852914968436408362')) {
+        s4dmessage.channel.send(String('J\'ai arrêté le reveil de bot !'));
+    }
+
+});
+
 s4d;
+
