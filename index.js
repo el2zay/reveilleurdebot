@@ -43,15 +43,10 @@ s4d.client.login('ODUyOTEzNTUzMzI4NDM5MzM5.YMNvpQ.pwmlMjEiptQLYNOB-FBYlamubV0').
 
 s4d.client.on('message', async (s4dmessage) => {
     if ((s4dmessage.content) == 'e!reveil' && (s4dmessage.channel) == s4d.client.channels.cache.get('852914968436408362')) {
-
-        while (s4d.client && s4d.client.token) {
-            await delay(50);
+        while (!((s4dmessage.content) == 'e!stopreveil' && (s4dmessage.channel) == s4d.client.channels.cache.get('852914968436408362'))) {
             s4dmessage.channel.send(String('e!test'));
             s4dmessage.channel.send(String('win ping'));
-            s4dmessage.channel.send(String('RÉVEILLEZ VOUS '));
             await delay(Number(250) * 1000);
-
-            console.log('ran')
         }
     }
 
