@@ -46,6 +46,7 @@ s4d.client.on('message', async (s4dmessage) => {
         while (!((s4dmessage.content) == 'e!stopreveil' && (s4dmessage.channel) == s4d.client.channels.cache.get('852914968436408362'))) {
             s4dmessage.channel.send(String('e!test'));
             s4dmessage.channel.send(String('win ping'));
+            s4dmessage.channel.send(String('M!ping'));
             await delay(Number(250) * 1000);
         }
     }
@@ -60,4 +61,3 @@ s4d.client.on('message', async (s4dmessage) => {
 });
 
 s4d;
-
